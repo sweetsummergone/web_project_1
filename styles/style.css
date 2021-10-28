@@ -14,8 +14,8 @@ body {
 }
 
 .logo {
-  width: 154px;
-  height: 31px;
+  min-width: 154px;
+  min-height: 31px;
   z-index: 100;
 }
 
@@ -26,9 +26,11 @@ body {
 }
 
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  margin-bottom: 100px;
   /* parameters for the header section */
 }
 
@@ -76,6 +78,94 @@ body {
   z-index: 0;
 }
 
+.description {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 768px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+}
+
+.two-columns__paragraph_margin_none {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.digits {
+}
+
+.section-title {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  margin: 20px auto 60px auto;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin: 20px 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
