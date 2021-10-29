@@ -32,6 +32,7 @@
   min-height: 600px;
   max-height: 756px;
   margin-bottom: 100px;
+  background-color: #f2f2f2;
   /* parameters for the header section */
 }
 
@@ -219,17 +220,20 @@
 }
 
 .feynman {
+  background-color: #f2f2f2;
   height: 790px;
   position: relative;
+  z-index: 0;
 }
 
 .feynman__title {
+  padding-top: 100px;
   margin: 0 auto;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  width: 648px;
+  width: 775px;
 }
 
 .feynman__subtitle {
