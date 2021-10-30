@@ -1,21 +1,3 @@
-p,
-ul,
-ol,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style: none;
-}
-
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -57,7 +39,7 @@ ul {
 }
 
 .header__title {
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   width: 730px;
   z-index: 2;
   line-height: 96px;
@@ -66,6 +48,7 @@ ul {
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   width: 388px;
@@ -112,6 +95,7 @@ ul {
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -131,7 +115,7 @@ ul {
   margin: 0;
 }
 
-.two-columns__paragraph:nth-of-type(2) {
+.two-columns__paragraph:not(:first-child):not(:last-child) {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -156,12 +140,8 @@ ul {
 }
 
 .section-title_theme_dark {
-  width: 60%;
   color: white;
   z-index: 1;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
 }
 
 .section-subtitle {
@@ -175,10 +155,6 @@ ul {
 
 .section-subtitle_theme_dark {
   color: white;
-  margin: 20px auto 0 auto;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .table {
@@ -206,6 +182,7 @@ ul {
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -214,9 +191,6 @@ ul {
 .table__heading_theme_dark {
   margin: 0 auto 20px auto;
   color: white;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .table__text {
@@ -229,9 +203,6 @@ ul {
 .table__text_theme_dark {
   margin: 0 auto;
   color: white;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .feynman {
@@ -302,7 +273,7 @@ ul {
   background-color: #1f1f1f;
   min-height: 350px;
   box-sizing: border-box;
-  padding: 90px 0 60px 0;
+  padding-bottom: 60px;
   display: flex;
 }
 
@@ -326,7 +297,7 @@ ul {
   font-size: 18px;
   font-weight: normal;
   margin-top: auto;
-  /* margin: 18px auto 18px 0; */
+  margin-bottom: 18px;
 }
 
 .footer__column_content_about {
@@ -335,13 +306,16 @@ ul {
 }
 
 .footer__column-heading {
+  margin: 0;
   color: white;
   line-height: 30px;
+  margin-bottom: 20px;
   font-size: 18px;
   font-weight: bold;
 }
 
 .footer__list {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
