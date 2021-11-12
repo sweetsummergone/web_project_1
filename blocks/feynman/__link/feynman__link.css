@@ -7,4 +7,13 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+.feynman__link:hover {
+  color: #4f145f;
+  opacity: 0.9;
 }

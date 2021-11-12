@@ -27,25 +27,20 @@
 @import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
 @import url("../blocks/two-columns/__span-accent/two-columns__span-accent.css");
 
+/* Techniques */
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/cards/__item/cards__item.css");
+@import url("../blocks/cards/__title/cards__title.css");
+@import url("../blocks/cards/__description/cards__description.css");
+@import url("../blocks/cards/__image/cards__image.css");
+
+/* Video */
+@import url("../blocks/video/video.css");
+@import url("../blocks/video/__iframes/video__iframes.css");
+@import url("../blocks/video/__iframe/video__iframe.css");
+
 /* Digits */
 @import url("../blocks/digits/digits.css");
-
-/* Section title */
-@import url("../blocks/section-title/section-title.css");
-@import url("../blocks/section-title/_theme/section-title_theme_dark.css");
-
-/* Section subtitle */
-@import url("../blocks/section-subtitle/section-subtitle.css");
-@import url("../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
-
-/* Table */
-@import url("../blocks/table/table.css");
-@import url("../blocks/table/__cell/table__cell.css");
-@import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
-@import url("../blocks/table/__heading/table__heading.css");
-@import url("../blocks/table/__heading/_theme/table__heading_theme_dark.css");
-@import url("../blocks/table/__text/table__text.css");
-@import url("../blocks/table/__text/_theme/table__text_theme_dark.css");
 
 /* Feynman */
 @import url("../blocks/feynman/feynman.css");
@@ -70,3 +65,28 @@
 @import url("../blocks/footer/__list/footer__list.css");
 @import url("../blocks/footer/__social/_icons/footer__social_icons.css");
 @import url("../blocks/footer/__author/footer__author.css");
+
+/* Oakley */
+@import url("../blocks/oakley/oakley.css");
+
+/* Settings */
+
+/* Rotation */
+@import url("../blocks/rotation/rotation.css");
+
+/* Section title */
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-title/_theme/section-title_theme_dark.css");
+
+/* Section subtitle */
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
+
+/* Table */
+@import url("../blocks/table/table.css");
+@import url("../blocks/table/__cell/table__cell.css");
+@import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
+@import url("../blocks/table/__heading/table__heading.css");
+@import url("../blocks/table/__heading/_theme/table__heading_theme_dark.css");
+@import url("../blocks/table/__text/table__text.css");
+@import url("../blocks/table/__text/_theme/table__text_theme_dark.css");

@@ -5,4 +5,12 @@
   font-weight: normal;
   padding: 0;
   text-decoration: none;
+  -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+.footer__column-link:hover {
+  opacity: 0.4;
 }
