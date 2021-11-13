@@ -7,7 +7,6 @@
 One-page website developed according to the BEM methodology. Used an extensive number of blocks, animations, various fonts, etc.
 
 - The site uses animation that is applied in some blocks.
-- See HTML in the right
 - ✨Magic ✨
 
 ## License
