@@ -1,5 +1,6 @@
 .kaufman__triangle {
   background-image: url("../../../images/kaufman-triangle.svg");
+  transform: rotate(-15deg);
   position: absolute;
   top: 0;
   right: -124px;
