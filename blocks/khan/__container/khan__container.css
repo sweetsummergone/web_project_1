@@ -1,5 +1,7 @@
 .khan__container {
-  overflow: hidden;
+  position: relative;
+  top: 105px;
+  padding-bottom: 105px;
   margin: 0 auto;
   width: 80%;
 }
